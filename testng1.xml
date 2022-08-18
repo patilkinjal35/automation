@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="demo">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNg.soft_assert"/>
+      <class name="TestNg.demo_testng"/>
+      <class name="TestNg.hardassert"/>
+      <class name="TestNg.method"/>
+      <class name="TestNg.test_method"/>
+      <class name="TestNg.method_browser_code"/>
+      <class name="TestNg.priority"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- demo -->
